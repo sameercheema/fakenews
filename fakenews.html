@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+  
+    <div class="jumbotron">
+            <h1 class="display-4">Fake New Search</h1>
+    </div>
+    <div container id="form">
+        <div class="row" id="headerRow">
+        <h5>Search Parameters</h5>
+        </div>
+            <div class="form-group">
+                    <label for="search-term">Search Term: </label>
+                    <input type="text" class="form-control" id="search-term">
+            </div>
+            <div class="form-group" >
+                    <label for="numResponses">Number of Responses: </label>
+                    <select id="numResponses">
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                        </select> 
+            </div>
+            <div class="form-group">
+                    <label for="startYear">Start Year (optional; enter a year between 1900 and 2018): </label>
+                    <input type="text" class="form-control" id="startYear">
+            </div>
+            <div class="form-group">
+                    <label for="endYear">End Year (optional; enter a year between 1900 and 2018): </label>
+                    <input type="text" class="form-control" id="endYear">
+            </div>
+            
+            <div class="row">
+                <button id="searchButton">Search</button>
+                <button id="clearButton">Clear</button>
+            </div>
+        <div class="row" id="topResponses">
+        <h5>Top Responses</h5>
+        </div>
+        <div id="responses" class="container" >
+        </div>
+    </div>
+    <script src="NYTSearch.js"></script>
+</body>
