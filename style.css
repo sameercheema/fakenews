@@ -1,0 +1,52 @@
+.jumbotron {
+    background-color: #1c2841;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #41351c;
+    border-radius: 10px;
+}
+#headerRow {
+    background-color:#e4002c;
+    color: white;
+}
+#form {
+    width: 1200px;
+    margin: 50px;
+    background: url("fakenew.png") repeat-x 0 0;
+}
+#searchButton {
+    margin: 10px;
+    border-radius: 25px;
+}
+#clearButton {
+    margin: 10px;
+    border-radius: 25px;
+}
+#topResponses {
+    background-color:#e4002c; 
+    color: white;
+}
+.container {
+    margin: 10px;
+    width: 1200px;
+    border-style: solid;
+    border-color: #1c2841;
+    
+}
+.form-group {
+    font-weight: bold;
+}
+.article {
+    font-weight: bold;
+}
+
+
+
+Collapse 
+
+Message Input
+
+Message Sarah Heinemeier, Derek Williams, Arturo Gallardo
